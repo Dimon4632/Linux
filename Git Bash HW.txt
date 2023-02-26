@@ -25,3 +25,14 @@ Linux terminal (GitBash) commands
 19) просмотреть содержимое длинного файла
     (команда less) изучите как она работает:---less file_name
 20) вывести дату и время:----------------------date
+
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request:
+------curl http://162.55.220.72:5005/terminal-hw-request
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:
+------cd new_folder ; mkdir new_folder_1 new_folder_2 new_folder_3 ; cd new_folder_3 ;
+touch new_1.txt new_2.txt new_3.txt new_4.json new_5.json ; mkdir new_folder_4 new_folder_5 new_folder_6 ;
+ls -l ; mv new_1.txt new_2.txt new_folder_4
